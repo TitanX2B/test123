@@ -1,0 +1,184 @@
+
+/* 1) styling the body*/
+body{
+    color: #000000; /* Set the text color*/
+    
+    background-image: url('../assets/images/dark-wood5.jpg'); /* Add the background image */
+    
+    
+    font-family: sans-serif, Arial, Helvetica, Verdana; 
+    margin-top: 0; /* Set all margin to 0*/
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;     
+}
+
+/* 3) Style the <div> element with class “container”  */
+.container {
+    width: 950px;
+    max-width: 1300px;
+    margin: 5px auto;
+    background-color: #edd3a8;
+}
+
+/* 4) Style any element with class value of “content” */
+.content{
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+/* 5) Style the “header, nav, and footer” */
+header, nav, footer{
+    background-color: black;
+    color: white; 
+}
+
+/* 6) Style the unordered list element*/
+
+nav ul{
+    margin: 0;
+    padding: 5px;
+}
+
+/* 7) Style the list items <li> of the main navigation */
+
+nav ul li{
+    display: inline-block; 
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+/* 8) Add the 4 pseudo classes effect to the anchor */
+nav a:link {
+    color: #e74c3c;
+}
+
+nav a:visited {
+    color: #b2e214;
+}
+
+nav a:hover {
+    color: #edd3a8
+}
+
+nav a:active {
+    color: #0ba5e7;
+}
+
+/* 9) Style any anchor */
+a {
+    color:azure;
+    text-decoration: none;
+}
+
+/* 10) Style the three headings */
+h1, h2, h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: rgb(150, 135, 116);
+}
+
+/* 11) Style the custom class named “img-centre” */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: 5px auto;
+    padding: 2px;
+    align-self: center;
+}
+
+/* 12) Style the <audio> and <video> elements */
+audio, video {
+    display: block;
+    margin: 10px auto;
+}
+
+/* 13) Style any <table> element */
+table {
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+/* 14) Style both the <td> and <th> */
+td, th {
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: bisque;
+}
+
+/* 15) Style both the <th> and the <td> in the <tfoot> */
+tfoot td, th {
+    text-transform: uppercase;
+    background-color: rgb(214, 193, 166);
+    color: rgb(23, 6, 110);
+    display: flexbox;
+    align-self: center ;
+}
+
+/* 16) Style any <dt> element */
+dt {
+    font-weight: bold;
+}
+
+/* 17) Style any <footer> element */
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/* 18) Style any <iframe> element */
+iframe {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+/* 19) Style any <fieldset> element */
+fieldset {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    border: #e74c3c;
+    background-color: bisque;
+}
+
+/* 20) Style any <legend> */
+legend {
+    font-style: italic;
+    color: #000000;
+    background-color: rgb(214, 193, 166);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: round;
+    border-radius: 10px;
+}
+
+/* 21) Style the <input> */
+input #type {
+    border-style: dotted;
+    padding: 5px;
+    background-color: aliceblue;
+    color: aquamarine;
+} 
+
+/* 22) Style the same <input>*/
+
